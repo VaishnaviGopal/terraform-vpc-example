@@ -5,9 +5,6 @@ terraform {
     }
   }
 }
-provider "ibm" {
-  region           = "us-south"
-}
 
 resource "ibm_is_vpc" "example-vpc" {
   name           = "newtestnewtestvpc"
